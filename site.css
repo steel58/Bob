@@ -5,6 +5,18 @@
 .page-top > h1 {
      font-size: 4em;
 }
-page-top > p {
+.page-top > p {
      font-size: 1.5em;
+}
+
+
+#bar{
+     padding-top:50px;
+     padding-bottom:50px;
+}
+.nav-pills a {
+     font-family: 'chewy',fantasy;
+}
+.tab-content {
+     padding-top:25px;
 }
