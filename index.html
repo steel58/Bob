@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-     <head>
+    <head>
           <meta name="viewport" content="width=device-width, initial-scale=1">
           <title>Three in One Oficial</title>
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">            
@@ -10,13 +10,43 @@
      <body>
           <!-- YOUR HTML HERE --><div class="container page-top">
      <h1>Three In One</h1>
-     <p>
-          YOUR PAGE TOP TEXT
-     </p>
-</div>
 
+</div>
+<div id="bar" class="container">
+     <ul class="nav nav-pills nav-justified">
+          <li class="active"><a data-toggle="pill" href="#why">WHY?</a></li>
+          <li><a data-toggle="pill" href="#videos">VIDEOS</a></li> 
+          <li><a data-toggle="pill" href="#About">ABOUT US</a></li>
+     </ul>
+     <div class="tab-content">
+          <div id="why" class="tab-pane fade in active">
+               <p>This is why</p>
+          </div>
+          <div id="videos" class="tab-pane fade"> 
+               <p><div id="video1" class="container embed-responsive embed-responsive-16by9"> 
+              
+     <div class="embed-responsive-item">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/Ug8XHivnC-c" frameborder="0" allowfullscreen></iframe>
+     </div>   
+</div>
+              <p>
+              
+              
+              
+              </p>
+          <div id="youtube-video" class="container embed-responsive embed-responsive-16by9">               
+     <div class="embed-responsive-item">
+          <!-- YOUR YOUTUBE IFRAME CODE HERE (next slide) --><iframe width="560" height="315" src="https://www.youtube.com/embed/-_8aefdfJaY" frameborder="0" allowfullscreen></iframe>
+     </div>
+</div>
+         </div>
+          <div id="About" class="tab-pane fade">
+               <p>this is about us</p>
+          </div>
+     </div>
+</div>
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-          <script src="YOUR JAVASCRIPT FILE NAME HERE.js"></script> 
+          <script src="script.js"></script> 
      </body>
 </html> 
