@@ -1,25 +1,18 @@
-html {
-  background-color: #736F6F; 
+body {
+    background-color: #F4A460;
 }
-
-.page-top {
-     padding-top:75px;
+#Head {
+    color: #9600B2;
 }
-.page-top > h1 {
-     font-size: 4em;
+#P1 {
+    color: #3CFF00;
 }
-.page-top > p {
-     font-size: 1.5em;
+#Img {
+    width:2000px;
+    height: 850px;
+    margin-left: -20px;
+    margin-bottom: -20px;
 }
-
-
-#bar{
-     padding-top:50px;
-     padding-bottom:50px;
-}
-.nav-pills a {
-     font-family: 'chewy',fantasy;
-}
-.tab-content {
-     padding-top:25px;
+b {
+    font-size: 20px;
 }
